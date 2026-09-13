@@ -1,1 +1,1 @@
-(()=>{'use strict';if(document.querySelector('link[data-vj-native]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href='native-mw-v1.css?v=e1b143e';l.dataset.vjNative='1';document.head.appendChild(l);})();
+(()=>{'use strict';if(document.querySelector('link[data-vj-native]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href='native-mw-v1.css?v=6e6263b';l.dataset.vjNative='1';document.head.appendChild(l);})();
