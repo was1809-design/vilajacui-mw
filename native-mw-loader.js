@@ -1,1 +1,1 @@
-(()=>{'use strict';if(document.querySelector('link[data-vj-native]'))return;const l=document.createElement('link');l.rel='stylesheet';l.href='native-mw-v1.css?v=6e6263b';l.dataset.vjNative='1';document.head.appendChild(l);})();
+(()=>{'use strict';[['native-mw-v1.css?v=6e6263b','base'],['native-mw-refinement-v2.css?v=963d740','refine']].forEach(([href,id])=>{if(document.querySelector(`link[data-vj-native="${id}"]`))return;const l=document.createElement('link');l.rel='stylesheet';l.href=href;l.dataset.vjNative=id;document.head.appendChild(l)});})();
